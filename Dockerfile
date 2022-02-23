@@ -1,3 +1,5 @@
+# Dockerfile for Multi-stage
+
 FROM openjdk:8 as builder
 RUN mkdir -p /app
 COPY . /app
